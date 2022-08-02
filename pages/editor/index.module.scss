@@ -1,0 +1,16 @@
+.container {
+  margin:0 auto;
+  .operation {
+    display: flex;
+    .title {
+      width: 80%;
+    }
+    .tag {
+      width: 15%;
+      margin: 0 10px;
+    }
+    .button {
+      width: 5%;
+    }
+  }
+}
