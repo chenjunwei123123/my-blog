@@ -92,7 +92,7 @@ const Login = (props: inProps) => {
         <div className={styles.otherLogin} onClick={handleAuthGithub}>使用github登陆</div>
         <div className={styles.loginPrivacy}>
           注册登陆即表示同意
-          <a href="https://moco.imooc.com/privacy.html" target="_blank">隐私政策</a>
+          <a href="https://moco.imooc.com/privacy.html" target="_blank" rel="noopener noreferrer">隐私政策</a>
         </div>
       </div>
     </div>

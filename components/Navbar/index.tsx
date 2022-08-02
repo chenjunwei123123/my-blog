@@ -1,5 +1,4 @@
 import {useState} from 'react'
-import type { NextPage } from 'next'
 import styles from './index.module.scss'
 import {observer} from 'mobx-react-lite'
 import Link from 'next/link'
@@ -10,7 +9,7 @@ import {LoginOutlined,HomeOutlined} from '@ant-design/icons'
 import Login from 'components/Login'
 import {useStore} from 'store/index'
 import request from 'servers/fetch'
-const Navbar: NextPage = () => {
+const Navbar = () => {
   const store = useStore()
   const {userId = '',avatar = ''} = store.user.userInfo
   const [isShowLogin,setIsShowLogin] = useState(false)
